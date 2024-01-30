@@ -1,8 +1,21 @@
-import React from 'react'
+import React from 'react';
+import {Routes, Route} from 'react-router-dom';
+import Home from './pages/Home';
+import CreateBook from './pages/CreateBooks';
+import ShowBook from './pages/ShowBook';
+import EditBook from './pages/EditBook';
+import DeleteBook from './pages/DeleteBook';
+
 
 const App = () => {
   return (
-    <div className = "bg-red-400 text-white">App</div>
+    <Routes>
+      <Route path='./pages/Home' element={} />
+      <Route path='' element={} />
+      <Route path='' element={} />
+      <Route path='' element={} />
+      <Route path='' element={} />
+    </Routes>
   )
 }
 
